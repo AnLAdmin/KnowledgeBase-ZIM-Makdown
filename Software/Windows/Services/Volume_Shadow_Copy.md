@@ -13,7 +13,7 @@ Shadow Copy providers
 ---------------------
 
 ### Microsoft Software Shadow Copy provider 1.0
-Default Windows VSS provider to create shaow copies. It uses [Copy-on-write](../../../Glossary/Copy-on-write.md) to create shatow copies.
+Default Windows VSS provider to create shaow copies. It uses [COW](../../../Glossary/COW.md) to create shatow copies.
 
 ### Windows VSS writers/In-Box VSS Writers
 [List](https://docs.microsoft.com/en-us/windows/win32/vss/in-box-vss-writers?redirectedfrom=MSDN)

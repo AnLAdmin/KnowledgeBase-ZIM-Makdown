@@ -7,7 +7,7 @@ Prerequisite
 ### Virtual machines
 
 #### Hyper-V
-The uplink interface (Hyper-V nic) to the bridge needs [mac address spoofing](../../Linux/Networking/Bridges/Hyper-v.md) enabled.
+The uplink interface (Hyper-V nic) to the bridge needs [mac address spoofing](../../Linux/Networking/Bridges/Standard/Hyper-v.md) enabled.
 
 Installation
 ------------

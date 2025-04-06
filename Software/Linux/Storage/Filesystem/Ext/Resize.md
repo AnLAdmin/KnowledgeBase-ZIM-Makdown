@@ -13,7 +13,7 @@ Resize
 
 In LVM
 ------
-First [resize partition](../../Partition/Resize.md). Than [resize LVM PV](../../LVM/Physical_volume/Resize.md). After that [resize LVM LV](../../LVM/Logical_Volume/Resize.md).
+First [resize partition](../../Partition/Resize.md). Than [resize LVM PV](../../LVM/Operation/Physical_volume/Resize.md). After that [resize LVM LV](../../LVM/Operation/Logical_Volume/Resize.md).
 At the end resize ext fs by all free space in the LV:
 # resize2fs  /dev/mapper/vg-root
 Resize to a specific size (base two)

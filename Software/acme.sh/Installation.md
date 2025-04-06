@@ -13,30 +13,30 @@ Logs:			Path to acme.sh logs
 
 Create acme user
 ----------------
-# groupadd --system <Group name>
-# useradd --system -c "Let's encrypt certificate management" -M -d /nonexistent -r -s /usr/sbin/nologin -g <Group name> <User name>
+``# groupadd --system <Group name>``
+``# useradd --system -c "Let's encrypt certificate management" -M -d /nonexistent -r -s /usr/sbin/nologin -g <Group name> <User name>``
 
 Create directories
 ------------------
-# mkdir <App path> <Configuration path> <Certificates path> <Logs>
-# chown -R <User name>:<Group name> <App path> <Configuration path> <Logs>
-# chmod -R 0770 <App path> <Configuration path> <Logs>
+``# mkdir <App path> <Configuration path> <Certificates path> <Logs>``
+``# chown -R <User name>:<Group name> <App path> <Configuration path> <Logs>``
+``# chmod -R 0770 <App path> <Configuration path> <Logs>``
 
 Installation
 ------------
 [Src](https://github.com/acmesh-official/acme.sh/wiki/How-to-install)
-# su - <User name>
-$ cd ~
-$ wget <https://github.com/acmesh-official/acme.sh/archive/master.zip>
-$ unzip master.zip
-or # git clone <https://github.com/Neilpang/acme.sh.git> 
-$ cd acme.sh-master
-or $ acme.sh
-$ ./acme.sh --install \
---home <App path> \
---config-home <Configuration path> \
---certhome <Certificates path> \
---accountemail "<Account mail>"
+``# su - <User name>``
+``$ cd ~``
+``$ wget`` [``https://github.com/acmesh-official/acme.sh/archive/master.zip``](https://github.com/acmesh-official/acme.sh/archive/master.zip)
+``$ unzip master.zip``
+or ``# git clone`` [``https://github.com/Neilpang/acme.sh.git``](https://github.com/Neilpang/acme.sh.git) 
+``$ cd acme.sh-master``
+or ``$ acme.sh``
+``$ ./acme.sh --install \``
+``--home <App path> \``
+``--config-home <Configuration path> \``
+``--certhome <Certificates path> \``
+``--accountemail "<Account mail>"``
 
 Close console -> an alias acme.sh was created in the install users ~\.bashrc.
 
